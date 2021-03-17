@@ -1,10 +1,14 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { Balance } from './root/balance/balance';
+import { Provider } from 'react-redux';
+import { User } from 'user/user';
+import { store } from './store/store';
 
 const App = () => {
     return (
-        <Balance />
+        <Provider store={store}>
+            <User />
+        </Provider>
     );
 };
 
