@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import { Balance } from './balance/balance';
 
 import './root.styl';
 
